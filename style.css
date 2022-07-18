@@ -61,6 +61,27 @@ header .container .row h2 a{
 
 
 /************** Contact Page ****************/
+
+.contact-step-text {
+	width: 50%;
+}
+
+.contact-step-text h4 {
+	margin: 0 auto;
+}
+
+.contact-step-text p {
+	margin: 0 auto;
+}
+
+.dots-right {
+	display: none;
+}
+
+.dots-left {
+	display: block;
+}
+
 .contact-container {
 	padding:0;
 }
@@ -200,6 +221,24 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	.contact-top-body,
 	.contact-column h2 {
 		text-align: left;
+	}
+
+	.contact-step-text {
+		width: 100%;
+	}
+
+	.contact-step {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.dots-right {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.dots-left {
+		display: none;
 	}
 
 }
