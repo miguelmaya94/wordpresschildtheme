@@ -23,13 +23,13 @@
             <div class="row" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;">
 
                 <!-- Logo Icon for Header -->
-                <div class="col-lg-6 logo-container">
+                <div class="logo-container">
                     <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Company Logo"/></a>
                 </div>
 
 
                 <!-- Menu for Header -->
-                <div class="col-lg-6 navigation">
+                <div class="navigation">
                         <nav class="custom-menu-class">
                             <?php
                                 wp_nav_menu(array(
