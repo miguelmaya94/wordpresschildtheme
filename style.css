@@ -74,11 +74,11 @@ header .container .row h2 a{
 	margin: 0 auto;
 }
 
-.dots-right {
+.dots-right img {
 	display: none;
 }
 
-.dots-left {
+.dots-left img {
 	display: block;
 }
 
@@ -232,12 +232,12 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 		flex-direction: row-reverse;
 	}
 
-	.dots-right {
+	.dots-right img {
 		display: block;
 		margin: 0 auto;
 	}
 
-	.dots-left {
+	.dots-left img {
 		display: none;
 	}
 
