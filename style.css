@@ -66,6 +66,11 @@ header .container .row h2 a{
 	width: 50%;
 }
 
+.step-top-text {
+	margin: 0 auto 12px;
+	width: 100%;
+}
+
 .contact-step-text h4 {
 	margin: 0 auto;
 }
