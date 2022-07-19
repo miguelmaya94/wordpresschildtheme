@@ -371,53 +371,6 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 form input:read-write {
 	border-radius: 0!important;
 }
-/*********** Cart **********/
-/**** Cart/Checkout *****/
-/* .wc-proceed-to-checkout .checkout-button {
-	text-decoration: none!important;
-}
-
-.woocommerce table.cart td.actions .input-text#coupon_code+.button {
-	border-color: #FFC619!important;
-}
-
-.woocommerce table.cart td.actions .input-text#coupon_code+.button:hover {
-	border-color: #ecb203!important;
-}
-
-.woocommerce .cart_totals .wc-proceed-to-checkout {
-    --primarybtnpadding: 18px 40px!important;
-}
-
-form select {
-	border-radius: 0!important;
-}
-
-form select option {
-	border-radius: 0!important;
-	border-color: #00549A!important;
-}
-
-.wc-proceed-to-checkout .woocommerce a.button, 
-.wc-proceed-to-checkout .woocommerce a.button.alt {
-	background-color: #00549A!important;
-	transition: .3s;
-}
-
-.wc-proceed-to-checkout .woocommerce a.button:hover, 
-.wc-proceed-to-checkout .woocommerce a.button.alt:hover {
-	background-color: #01236f!important;
-	transition: .3s;
-}
-
-.woocommerce table.shop_table.cart a {
-	transition: .3s;
-}
-
-.woocommerce table.shop_table.cart a:hover {
-	color: #00549A;
-	transition: .3s;
-} */
 
 /************ Cart/Checkout **********/
 
