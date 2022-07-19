@@ -285,12 +285,21 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	font-size: 16px;
 }
 
+.woocommerce table.shop_table.cart .remove {
+	text-decoration: none;
+}
+
 .woocommerce-page .nv-index-posts a,
 .woocommerce-page .single-page-container a {
 	color: #000;
 	text-decoration: underline;
 	transition: .3s;
 }
+
+.wc-proceed-to-checkout .checkout-button {
+	text-decoration: none!important;
+}
+
 
 .woocommerce-page .nv-index-posts a:hover,
 .woocommerce-page .single-page-container a:hover {
@@ -327,14 +336,30 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	
 }
 
-.woocommerce .woocommerce-breadcrumb a a {
-	color: #000;
+.woocommerce .woocommerce-breadcrumb a {
+	color: #000!important;
 	transition: .3s;
 }
 
 .woocommerce .woocommerce-breadcrumb a:hover {
-	color: #FFC638;
+	color: #FFC619!important;
 	transition: .3s;
+}
+
+.woocommerce #review_form #respond input#submit {
+	background: #FFC619;
+	color: #000;
+	transition: .3s;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.woocommerce #review_form #respond input#submit:hover {
+	background: #021B50;
+	color: #fff;
+	transition: .3s;
+
 }
 
   
@@ -407,6 +432,7 @@ form input:read-write {
 
 .woocommerce-page .woocommerce-info {
 	display: none;
+}
 
 .woocommerce table.cart td.actions .input-text#coupon_code+.button:hover {
 	border-color: #021B50!important;
@@ -443,6 +469,7 @@ form input:read-write {
 
 .nv-content-wrap li {
 	border: none;
+}
 
 .wc-proceed-to-checkout .woocommerce a.button, 
 .wc-proceed-to-checkout .woocommerce a.button.alt {
@@ -471,9 +498,6 @@ form input:read-write {
 	transition: .3s;
 }
 
-
-.woocommerce-page .woocommerce-message a:hover,
-.woocommerce a.button:hover {
 
 .woocommerce table.shop_table.cart a:hover {
 	color: #FFC619;
@@ -541,10 +565,107 @@ body.woocommerce-account nav>ul .is-active a:hover {
 	margin: 0!important;
 }
 
+.woocommerce-page .woocommerce-info::before {
+	display: none!important;
+}
+
+.woocommerce-info::before {
+	display: none!important;
+}
+
 .myaccount-menu-icon .svg-inline--fa {
 	margin-right: 8px;
 }
 
+.woocommerce-info>a {
+	background-color: #FFC619!important;
+	border: none!important;
+	color: #000!important;
+	transition: .3s;
+	text-decoration: none!important;
+}
+
+.woocommerce-info>a:hover {
+	background-color: #021B50!important;
+	color: #fff!important;
+	transition: .3s;
+}
+
+/********** Cart/Checkout *************/
+.wc-proceed-to-checkout .checkout-button {
+	text-decoration: none!important;
+}
+
+.woocommerce-privacy-policy-text{
+	display: none!important;
+}
+
+.woocommerce-page .woocommerce-info {
+	display: none;
+}
+
+.woocommerce .woocommerce-info::before {
+	display: none!important;
+}
+
+.woocommerce .woocommerce-info a, .woocommerce .woocommerce-info::before, .woocommerce-page .woocommerce-info a, .woocommerce-page .woocommerce-info::before {
+   color: #000;
+	 border: none;
+	 background-color:#FFC619;
+	 text-decoration: none;
+	 transition: .3s;
+	 margin-bottom: 15px;
+}
+
+.woocommerce .woocommerce-info a:hover, .woocommerce .woocommerce-info::before, .woocommerce-page .woocommerce-info a:hover, .woocommerce-page .woocommerce-info::before {
+   color: #fff;
+	 background-color: #021B50;
+	 transition: .3s;
+}
+
+.checkout_coupon button.button {
+	border: none;
+}
+
+.nv-content-wrap li {
+	border: none;
+}
+
+.woocommerce .woocommerce-error {
+	padding-left: 0!important;
+}
+
+.woocommerce table.shop_table.cart a {
+	text-decoration: none!important;
+}
+
+.woocommerce-page .woocommerce-message a,
+.woocommerce a.button
+{
+	text-decoration: none;
+	background-color: #FFC619;
+	border: none;
+	color: #000;
+	transition: .3s;
+}
+
+.woocommerce-page .woocommerce-message a:hover,
+.woocommerce a.button:hover {
+	background-color: #021B50;
+	border: none;
+	color: #fff;
+	transition: .3s;
+}
+
+.woocommerce-additional-fields {
+	display: none!important;
+}
+
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 @media (min-width: 576px) {
 	.woocommerce .woocommerce-error {
 		padding-left: 3.5em!important;
