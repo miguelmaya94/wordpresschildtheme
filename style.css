@@ -407,6 +407,7 @@ form input:read-write {
 
 .woocommerce-page .woocommerce-info {
 	display: none;
+}
 
 .woocommerce table.cart td.actions .input-text#coupon_code+.button:hover {
 	border-color: #021B50!important;
@@ -443,6 +444,7 @@ form input:read-write {
 
 .nv-content-wrap li {
 	border: none;
+}
 
 .wc-proceed-to-checkout .woocommerce a.button, 
 .wc-proceed-to-checkout .woocommerce a.button.alt {
@@ -472,8 +474,7 @@ form input:read-write {
 }
 
 
-.woocommerce-page .woocommerce-message a:hover,
-.woocommerce a.button:hover {
+
 
 .woocommerce table.shop_table.cart a:hover {
 	color: #FFC619;
