@@ -472,7 +472,7 @@ body.woocommerce-account nav>ul .is-active a:hover {
 	transition: .3s;
 }
 
-/**** Cart/Checkout from css editor *****/
+/********** Cart/Checkout *************/
 .wc-proceed-to-checkout .checkout-button {
 	text-decoration: none!important;
 }
@@ -540,6 +540,12 @@ body.woocommerce-account nav>ul .is-active a:hover {
 
 .woocommerce-additional-fields {
 	display: none!important;
+}
+
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
