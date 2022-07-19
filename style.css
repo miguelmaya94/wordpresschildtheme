@@ -67,6 +67,15 @@ header .container .row h2 a{
 
 .contact-step-text {
 	width: 50%;
+	padding: 10px 0;
+}
+
+.contact-column-left .wp-container-26 {
+	gap: .75em;
+}
+
+.wp-container-37 {
+	gap: 0!important;
 }
 
 .step-top-text {
@@ -116,7 +125,8 @@ header .container .row h2 a{
 
 .contact-column-left .wp-container-4,
 .contact-column-left .wp-container-15,
-.contact-column-left .wp-container-25 {
+.contact-column-left .wp-container-25,
+.contact-column-left .wp-container-26 {
 	gap: .75em;
 }
 
