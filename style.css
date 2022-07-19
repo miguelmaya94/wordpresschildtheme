@@ -666,11 +666,16 @@ body.woocommerce-account nav>ul .is-active a:hover {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.woocommerce table.cart td.actions .input-text#coupon_code+.button {
+	border: none;
+}
+
 @media (min-width: 576px) {
 	.woocommerce .woocommerce-error {
 		padding-left: 3.5em!important;
 	}
-} */
+}
 
 
 /******** Woo Commerce Pages ***********/
