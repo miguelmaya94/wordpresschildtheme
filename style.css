@@ -277,6 +277,15 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 }
 
 /************** Product Page ****************/
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+	color: #00549A!important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	color: #00549A!important;
+}
+
 .product_title {
 	font-size: 36px;
 }
@@ -364,6 +373,22 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
   
 /************* Shop Page ***************/
+
+.woocommerce ul.products,
+.related-products .products {
+	display: flex!important;
+	flex-wrap: wrap!important;
+}
+	
+.woocommerce ul.products.columns-3 li.product, 
+.woocommerce-page ul.products.columns-3 li.product,
+.product {
+	display: flex!important;
+	flex-flow: column!important;
+	justify-content: flex-end!important;
+	padding: 0 10px!important;
+}
+
 .nv-sidebar-toggle {
 	display: none;
 }
@@ -691,6 +716,13 @@ body.woocommerce-account nav>ul .is-active a:hover {
 }
 
 @media (min-width: 768px) {
+
+	.woocommerce ul.products.columns-3 li.product, 
+	.woocommerce-page ul.products.columns-3 li.product,
+	.product {
+		padding: 0!important;
+	}
+
 	.woocommerce-page .nv-index-posts,
 	.woocommerce-page .single-page-container {
 		width: 720px;
