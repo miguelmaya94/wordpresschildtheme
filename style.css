@@ -56,7 +56,21 @@ header .container .row h2 a{
 }
 
 
-/*Home Page*/
+
+
+
+
+/*footer*/
+.blurb{
+	font-size: 0.8em;
+	line-height: normal;
+  padding-right: 50px;
+	margin: auto;
+}
+.footer-menu-links{
+	 column-count: 3;
+	 font-size: 0.8em;
+}
 
 
 
@@ -187,19 +201,20 @@ header .container .row h2 a{
 .contact-form div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
 	background-color: #F98B2A;
 	border: none;
-	color: #FFFFFF;
+	color: #fff;
 	font-size: .9em;
 	padding: 8px 0;
 	width: 100%;
 	font-family: raleway;
 	transition: .3s;
 	margin-top: 40px;
+	border-radius: 3px;
 }
 
 .contact-form div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
-	background-color: #FA7703;
+	background-color: #00549A;
 	border: none;
-	color: #FFFFFF;
+	color: #fff;
 	font-size: .9em;
 	padding: 8px 0;
 	width: 100%;
@@ -272,13 +287,14 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .woocommerce-page .nv-index-posts a,
 .woocommerce-page .single-page-container a {
-	color: #FF8500;
+	color: #000;
+	text-decoration: underline;
 	transition: .3s;
 }
 
 .woocommerce-page .nv-index-posts a:hover,
 .woocommerce-page .single-page-container a:hover {
-	color: #FA7703;
+	color: #FFC619;
 	transition: .3s;
 }
 
@@ -298,6 +314,11 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	color: #000!important;
 }
 
+.woocommerce table.shop_table.cart tr:last-child .button {
+	--secondarybtnpadding: 10px 40px!important;
+    --primarybtnpadding: 13px 40px!important;
+}
+
 .woocommerce button.button:hover, 
 .woocommerce button.button.alt:hover {
 	background: #021B50!important;
@@ -307,12 +328,12 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 }
 
 .woocommerce .woocommerce-breadcrumb a a {
-	color: #00549A;
+	color: #000;
 	transition: .3s;
 }
 
 .woocommerce .woocommerce-breadcrumb a:hover {
-	color: #021B50;
+	color: #FFC638;
 	transition: .3s;
 }
 
@@ -337,8 +358,8 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .nv-card-content-wrapper a.button:hover,
 .woocommerce-shop a.button:hover {
-	background: #ecb203!important;
-	color: #000!important;
+	background: #021B50!important;
+	color: #fff!important;
 	transition: .3s;
 }
 
@@ -349,20 +370,21 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 }
 
 .woocommerce .woocommerce-message a.button  {
-	border-radius: 0!important;
-	background: #00549A!important;
-	border: 3px solid #fff!important;
+	/* border-radius: 0!important; */
+	background: #FFC619!important;
+	border: none!important;
+	color: #000!important;
+	transition: .3s;
+	text-decoration: none!important;
+}
+
+.woocommerce .woocommerce-message a.button:hover {
+	background: #021B50!important;
 	color: #fff!important;
 	transition: .3s;
 }
 
-.woocommerce .woocommerce-message a.button:hover {
-	background: #fff!important;
-	color: #00549A!important;
-	transition: .3s;
-}
-
-.woocommerce a.button,
+/* .woocommerce a.button,
 .woocommerce button.button, 
 .woocommerce button.button.alt {
 	border-radius: 0!important;
@@ -370,7 +392,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 form input:read-write {
 	border-radius: 0!important;
-}
+} */
 
 /************ Cart/Checkout **********/
 
@@ -378,12 +400,20 @@ form input:read-write {
 	text-decoration: none!important;
 }
 
+
 .woocommerce-privacy-policy-text{
 	display: none!important;
 }
 
 .woocommerce-page .woocommerce-info {
 	display: none;
+
+.woocommerce table.cart td.actions .input-text#coupon_code+.button:hover {
+	border-color: #021B50!important;
+}
+
+.woocommerce .cart_totals .wc-proceed-to-checkout {
+    --primarybtnpadding: 13px 40px!important;
 }
 
 .woocommerce .woocommerce-info::before {
@@ -399,6 +429,7 @@ form input:read-write {
 	 margin-bottom: 15px;
 }
 
+
 .woocommerce .woocommerce-info a:hover,
 .woocommerce-page .woocommerce-info a:hover {
    color: #fff!important;
@@ -412,6 +443,18 @@ form input:read-write {
 
 .nv-content-wrap li {
 	border: none;
+
+.wc-proceed-to-checkout .woocommerce a.button, 
+.wc-proceed-to-checkout .woocommerce a.button.alt {
+	background-color: #FFC619!important;
+	transition: .3s;
+}
+
+.wc-proceed-to-checkout .woocommerce a.button:hover, 
+.wc-proceed-to-checkout .woocommerce a.button.alt:hover {
+	background-color: #021B50!important;
+	transition: .3s;
+
 }
 
 .woocommerce table.shop_table.cart a {
@@ -428,8 +471,24 @@ form input:read-write {
 	transition: .3s;
 }
 
+
 .woocommerce-page .woocommerce-message a:hover,
 .woocommerce a.button:hover {
+
+.woocommerce table.shop_table.cart a:hover {
+	color: #FFC619;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+	background-color: #FFC619!important;
+	color: #000!important;
+	transition: .3s;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
+
 	background-color: #021B50!important;
 	color: #fff!important;
 	transition: .3s;
@@ -442,10 +501,19 @@ form input:read-write {
 
 /******** My Account Page ***********/
 
+
 /* body.woocommerce-account nav>ul .is-active a {
+
+.woocommerce-account .nv-single-page-wrap {
+	margin: 0 15px 60px;
+}
+
+body.woocommerce-account nav>ul .is-active a {
+
 	font-weight: 700!important;
 	color: #000!important;
 	opacity: 1;
+	text-decoration: none!important;
 }
 body.woocommerce-account nav>ul .is-active a:hover {
 	color: #0A98FA!important;
@@ -453,6 +521,7 @@ body.woocommerce-account nav>ul .is-active a:hover {
 
 .woocommerce-MyAccount-navigation-link a {
 	font-weight: 700!important;
+	text-decoration: none!important;
 	color:#000!important;
 	opacity: .5;
 }
