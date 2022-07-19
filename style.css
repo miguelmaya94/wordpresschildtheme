@@ -229,12 +229,21 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	font-size: 16px;
 }
 
+.woocommerce table.shop_table.cart .remove {
+	text-decoration: none;
+}
+
 .woocommerce-page .nv-index-posts a,
 .woocommerce-page .single-page-container a {
 	color: #000;
 	text-decoration: underline;
 	transition: .3s;
 }
+
+.wc-proceed-to-checkout .checkout-button {
+	text-decoration: none!important;
+}
+
 
 .woocommerce-page .nv-index-posts a:hover,
 .woocommerce-page .single-page-container a:hover {
@@ -462,6 +471,77 @@ body.woocommerce-account nav>ul .is-active a:hover {
 	color: #fff!important;
 	transition: .3s;
 }
+
+/**** Cart/Checkout from css editor *****/
+.wc-proceed-to-checkout .checkout-button {
+	text-decoration: none!important;
+}
+
+.woocommerce-privacy-policy-text{
+	display: none!important;
+}
+
+.woocommerce-page .woocommerce-info {
+	display: none;
+}
+
+.woocommerce .woocommerce-info::before {
+	display: none!important;
+}
+
+.woocommerce .woocommerce-info a, .woocommerce .woocommerce-info::before, .woocommerce-page .woocommerce-info a, .woocommerce-page .woocommerce-info::before {
+   color: #000;
+	 border: none;
+	 background-color:#FFC619;
+	 text-decoration: none;
+	 transition: .3s;
+	 margin-bottom: 15px;
+}
+
+.woocommerce .woocommerce-info a:hover, .woocommerce .woocommerce-info::before, .woocommerce-page .woocommerce-info a:hover, .woocommerce-page .woocommerce-info::before {
+   color: #fff;
+	 background-color: #021B50;
+	 transition: .3s;
+}
+
+.checkout_coupon button.button {
+	border: none;
+}
+
+.nv-content-wrap li {
+	border: none;
+}
+
+.woocommerce .woocommerce-error {
+	padding-left: 0!important;
+}
+
+.woocommerce table.shop_table.cart a {
+	text-decoration: none!important;
+}
+
+.woocommerce-page .woocommerce-message a,
+.woocommerce a.button
+{
+	text-decoration: none;
+	background-color: #FFC619;
+	border: none;
+	color: #000;
+	transition: .3s;
+}
+
+.woocommerce-page .woocommerce-message a:hover,
+.woocommerce a.button:hover {
+	background-color: #021B50;
+	border: none;
+	color: #fff;
+	transition: .3s;
+}
+
+.woocommerce-additional-fields {
+	display: none!important;
+}
+
 
 /******** Woo Commerce Pages ***********/
 .woocommerce-page h1 {
