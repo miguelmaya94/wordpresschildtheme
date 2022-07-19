@@ -24,26 +24,11 @@
             
             <div class="row" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;">
 
-               	<div class="row">
-						<div class="col-lg-6 logo-container">
-
-						<?php
-//added this for logo to show up
-				if(get_header_image() == ''){ ?>
-				<h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-
-			<?php
-			}else{ ?>
-			<a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image(); ?>"
-			height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()
-			->width; ?>" alt="Company Logo" /></a>
-
-		<?php
-		}
-		?>
-
-
-		</div>  
+            
+               	<!-- Logo Icon for Header -->
+                   <div class="col-lg-6 logo-container">
+                    <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Company Logo"/></a>
+                </div>
 
 
                 <!-- Menu for Header -->
