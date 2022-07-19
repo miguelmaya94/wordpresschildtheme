@@ -271,14 +271,30 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	
 }
 
-.woocommerce .woocommerce-breadcrumb a a {
-	color: #000;
+.woocommerce .woocommerce-breadcrumb a {
+	color: #000!important;
 	transition: .3s;
 }
 
 .woocommerce .woocommerce-breadcrumb a:hover {
-	color: #FFC638;
+	color: #FFC619!important;
 	transition: .3s;
+}
+
+.woocommerce #review_form #respond input#submit {
+	background: #FFC619;
+	color: #000;
+	transition: .3s;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.woocommerce #review_form #respond input#submit:hover {
+	background: #021B50;
+	color: #fff;
+	transition: .3s;
+
 }
 
   
