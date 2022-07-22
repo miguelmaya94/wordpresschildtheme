@@ -92,6 +92,10 @@ header .container .row h2 a{
 	gap: 0!important;
 }
 
+.wp-container-35 {
+	justify-content: center;
+}
+
 .step-top-text {
 	margin: 0 auto;
 	width: 100%;
@@ -187,7 +191,7 @@ header .container .row h2 a{
 	margin-bottom: 10px;
 }
 
-.contact-form div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
+.contact-form div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select {
 	background-color: #021B50;
 	border-radius: 0;
 	color: #F98B2A;
@@ -196,6 +200,12 @@ header .container .row h2 a{
 	border-left: none;
 	border-right: none;
 	font-family: raleway;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium::placeholder {
+	font-weight: 500;
+    opacity: 1!important;
+    color: #F98B2A;
 }
 
 .contact-form div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
@@ -227,8 +237,12 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 	max-width: 100%!important;
 }
 
-div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
-	height: 38px!important;
+div.wpforms-container-full .wpforms-form textarea {
+    background-color: #021B50;
+    border-radius: 0;
+    color: #F98B2A;
+    border: 1px solid #F98B2A;
+    font-family: raleway;
 }
 
 .contact-column {
