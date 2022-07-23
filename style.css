@@ -81,6 +81,16 @@ header .container .row h2 a{
 
 
 /************** Contact Page ****************/
+.contact-mail .fas,
+.contact-phone .fas{
+    font-family: "Font Awesome 6 Free";
+    padding-right: 10px;
+}
+
+.contact-mail {
+	margin-bottom: 8px!important;
+}
+
 .contact-first-step {
 	padding-top: 50px;
 }
