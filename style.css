@@ -33,7 +33,13 @@ a{color:white}
 header .container .row {
     padding: 20px 0 0 45px;
 }
+
 header{width:100px;}
+
+li.page_item {
+    margin-top: 0!important;
+		padding: 0 10px!important;
+}
 
 header .container .row h2 {
     padding: 200px 0 70px 0;
@@ -75,6 +81,16 @@ header .container .row h2 a{
 
 
 /************** Contact Page ****************/
+.contact-mail .fas,
+.contact-phone .fas{
+    font-family: "Font Awesome 6 Free";
+    padding-right: 10px;
+}
+
+.contact-mail {
+	margin-bottom: 8px!important;
+}
+
 .contact-first-step {
 	padding-top: 50px;
 }
