@@ -17,9 +17,11 @@
 
 <body <?php body_class(); ?> > 
 
+
     <header>
         <div class="container">
             
+            <!-- Header Background Img -->
             <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post ->ID), 'full') ;?>
             
             <div class="row" style="background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;">
